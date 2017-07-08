@@ -275,7 +275,7 @@ static U8 nxe2000_get_dcdc_step(int want_vol)
 #endif
 
 #ifdef DRONE_PMIC_INIT
-inline void PMIC_Drone(void)
+void PMIC_Drone(void)
 {
 	U8 pData[4];
 
